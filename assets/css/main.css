@@ -1135,6 +1135,76 @@ section,
   color: #fff;
 }
 
+
+/*--------------------------------------------------------------
+# Planes de Desarrollo Web Section
+--------------------------------------------------------------*/
+
+#planes-desarrollo-web {
+  background: #a1a4a71f;
+}
+
+#plan-desarrollo-web {
+  background: linear-gradient(to right, #56abe0, #0495f0, #0495f0);
+  border: 1px solid 
+  color-mix(in srgb, var(--default-color), transparent 85%);
+  padding: 10px;
+  transition: border ease-in-out 0.3s;
+  box-shadow: 0 0 10px 0.5px #000000;
+  border-radius: 10px;
+}
+
+#plan-desarrollo-web:hover {
+  animation: change-color 1s ease infinite;
+}
+
+@keyframes change-color {
+  0% {
+    color: #adadad;
+  }
+
+  50% {
+    color: #ffffff;
+  }
+}
+
+#plan-desarrollo-web {
+  font-family: var(--heading-font);
+  font-weight: 600;
+}
+  
+
+/*--------------------------------------------------------------
+# Packages Section
+--------------------------------------------------------------*/
+
+#package-item .row .col-sm-3 {
+  background-color: #515c633b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#package-item .row .col-sm-3 h2 {
+  color: #036eb1;
+}
+
+#package-item .row .col-sm-3 h4 {
+  text-decoration: underline;
+}
+
+#package-item .row .col-sm-3 ul li {
+  margin: 8px 0;
+  list-style-type: square;
+}
+
+#package-item .row .col-sm-3 .etiquetas {
+  color: #D7D9DB;
+}
+
+
+
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
