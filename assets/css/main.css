@@ -717,38 +717,31 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Scroll Top Button
+# WhatsApp Button
 --------------------------------------------------------------*/
-.scroll-top {
+
+/* ...existing code... */
+.whatsapp-button {
   position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: -15px;
-  z-index: 99999;
-  background-color: var(--accent-color);
-  width: 44px;
-  height: 44px;
-  border-radius: 50px;
-  transition: all 0.4s;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
 }
 
-.scroll-top i {
-  font-size: 24px;
-  color: var(--contrast-color);
-  line-height: 0;
+.whatsapp-button i {
+  font-size: 30px;
 }
+/* ...existing code... */
 
-.scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
-  color: var(--contrast-color);
-}
-
-.scroll-top.active {
-  visibility: visible;
-  opacity: 1;
-  bottom: 15px;
-}
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
